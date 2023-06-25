@@ -1,0 +1,85 @@
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color:hsl(217, 54%, 11%);
+} 
+p{
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+}
+.color1{
+    color: hsl(178, 100%, 50%);
+}
+.color{
+   color: hsl(0, 0%, 100%);
+   text-decoration: none;
+}
+.PrimerTitulo{
+    margin-left: 25px;
+    font-size: 16px;
+}
+
+.imagen{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.border1:hover {
+    background: hsl(178, 100%, 50%);
+    padding: 10px;
+}
+.border:hover {
+    color: hsl(178, 100%, 50%)
+}
+.fondo_imagen{
+    background: hsl(216, 50%, 16%);
+    margin: 0 auto;
+    width: 315px;
+    height: 550px;
+    border-radius: 20px;
+}
+.inline{
+    display: inline-block;
+}
+.colorcito{
+    color: hsl(0, 0%, 100%);
+    opacity: 10%;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.tamanio{
+    font-size: 15px;
+}
+.margen1{
+    margin-top: -15px;
+}
+.margen2{
+    margin-top: -1px;
+}
+.margen3{
+    margin-left: 5px;
+}
+.margen4{
+    margin-left: 70px;
+    margin-top: 3px;
+}
+.margen5{
+    margin-left: 25px;
+}
+.margen6{
+    margin-left: 5px;
+    
+}
+.margen7{
+    margin-left: 25px;
+    margin-top: 15px;
+    border-radius:40px
+}
+.margen8{
+    text-align: center;
+    margin-top: 10px;
+}
+@media(max-width: 375px){
+    .medias{
+        width: 70%;
+    }
+}
